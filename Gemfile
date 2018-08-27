@@ -5,7 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+gem 'fog-aws'
+gem 'figaro'
 gem 'carrierwave'
 gem 'faker'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
